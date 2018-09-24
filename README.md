@@ -1,3 +1,7 @@
+# Indkøbsliste
+I dette projekt er der en indkøbsliste
+I scss filen er defineret classes for hhv usund og sund som kan bruges til at specificerer om varen på indkøbslisten er sund eller usund
+
 # Webpack - TypeScript - SCSS
 this project is a beginner-friendly introduction to Webpack, Type Script and SCSS.
 This includes a simple webpack configuration including TypeScript and SCSS transporation
