@@ -1,12 +1,12 @@
-interface Person {
-    firstName: string;
-    lastName: string;
-}
+// let elementNode = document.getElementById('one');
 
-function greeter(person: Person): string {
-    return "Hello, " + person.firstName + " " + person.lastName;
-}
-let user: Person = { firstName: "John", lastName: "Doe" };
+// elementNode.textContent = "Hallo";
 
-let element: HTMLDivElement = <HTMLDivElement> document.getElementById("content");
-element.innerHTML = greeter(user);
+ let listeusund = document.getElementById('listeUsund');
+ let newLi = document.createElement('li');
+ let newText = document.createTextNode('Sodavand')
+ newLi.setAttribute('class','usundt');
+newLi.appendChild(newText);
+ listeusund.appendChild(newLi);
+
+ console.log(listeusund);
